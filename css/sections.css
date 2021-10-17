@@ -1,0 +1,162 @@
+/* ---------------------------- Section 1 ---------------------------- */
+body #s1{
+    width: -webkit-fill-available;
+    height: 450px;
+    background: var(--pink);
+}
+
+body #s1 div{
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 110px 0px;
+}
+
+body #s1 div h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+body #s1 div h4{
+    font-weight: 500;
+}
+
+body #s1 div button{
+    margin-top: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    color: var(--pink);
+    border-radius: 5px;
+}
+
+/* ---------------------------- Section 2 ---------------------------- */
+
+body #s2{
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: space-around;
+    width: -webkit-fill-available;
+    background: white
+}
+
+body #s2 div p{
+    margin-top: 40px;
+}
+
+body #s2 div img{
+    height: 270px;
+}
+
+/* ---------------------------- Section 3 ---------------------------- */
+
+body #s3{
+    padding: 0 100px;
+    height: 400px;
+    width: -webkit-fill-available;
+    background: white;
+}
+
+body #s3 h1{
+    margin: 100px 0;
+    text-align: center;
+}
+
+body #s3 .container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* ---------------------------- Section 4 ---------------------------- */
+
+body #s4{
+    margin: 10px;
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: space-around;
+    width: -webkit-fill-available;
+    background: var(--pink);
+    color: white;
+}
+
+body #s4 div p{
+    margin-top: 40px;
+}
+
+body #s4 div img{
+    height: 270px;
+}
+
+/* ---------------------------- Section 5 ---------------------------- */
+
+body #s5{
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: space-around;
+    width: -webkit-fill-available;
+    background: white;
+}
+
+body #s5 div p{
+    margin-top: 40px;
+}
+
+body #s5 div form{
+    margin-top: 75px;
+}
+
+body #s5 div form input{
+    margin-bottom: 15px;
+    padding: 0 10px;
+    height: 40px;
+    width: -webkit-fill-available;
+    text-align: left;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+body #s5 div form button{
+    padding: 0 10px;
+    height: 30px;
+    width: 100px;
+    background: var(--pink);
+    color: white;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* ---------------------------- Responsive ---------------------------- */
+
+@media only screen and (max-width: 500px){
+    section{
+        margin: 25px 0;
+        display: block !important;
+        height: fit-content !important;
+        text-align: center !important;
+    }
+
+    #s1{
+        margin: 0 !important;
+    }
+
+    #s3 .container{
+        flex-direction: column !important;
+    }
+
+    #s4{
+        margin-bottom: 50px;
+    }
+
+    #s4 div div{
+        justify-content: space-evenly;
+    }
+
+    #s5 div form{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}

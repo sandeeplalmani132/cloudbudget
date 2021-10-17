@@ -1,0 +1,44 @@
+#contact{
+    padding-top: 80px;
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: space-around;
+    width: -webkit-fill-available;
+    background: white;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+#contact form input{
+    margin-bottom: 15px;
+    padding: 0 10px;
+    height: 40px;
+    width: -webkit-fill-available;
+    text-align: left;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#contact form input[type="checkbox"]{
+    margin-left: 15px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+#contact form button{
+    margin: auto;
+    padding: 0 10px;
+    height: 30px;
+    width: 100px;
+    background: var(--pink);
+    color: white;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+}
